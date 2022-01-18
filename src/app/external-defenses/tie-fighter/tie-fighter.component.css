@@ -1,3 +1,5 @@
 img{
-    display: flex;
+    /* display: flex; */
+    background-color:aqua;
+    width: 30px;
 }
