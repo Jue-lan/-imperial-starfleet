@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TieFighterComponent } from './tie-fighter.component';
+import { LaserCannonComponent } from './../laser-cannon/laser-cannon.component';
 
-describe('TieFighterComponent', () => {
-  let component: TieFighterComponent;
-  let fixture: ComponentFixture<TieFighterComponent>;
+describe('LaserCannonComponent', () => {
+  let component: LaserCannonComponent;
+  let fixture: ComponentFixture<LaserCannonComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TieFighterComponent ]
+      declarations: [ LaserCannonComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TieFighterComponent);
+    fixture = TestBed.createComponent(LaserCannonComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

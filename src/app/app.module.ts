@@ -2,21 +2,18 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { DeathSquareComponent } from './death-square/death-square.component';
-import { TurretComponent } from './turret/turret.component';
-import { LaserCannonComponent } from './laser-cannon/laser-cannon.component';
-import { TieFighterComponent } from './tie-fighter/tie-fighter.component';
+import { ExternalDefensesModule } from './external-defenses/external-defenses.module';
+import { InternalDefensesModule } from './internal-defenses/internal-defenses.module';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    DeathSquareComponent,
-    TurretComponent,
-    LaserCannonComponent,
-    TieFighterComponent
   ],
   imports: [
     BrowserModule,
+    ExternalDefensesModule,
+    InternalDefensesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

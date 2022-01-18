@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DeathSquareComponent } from './death-square.component';
+import { StarDestroyerComponent } from './../star-destroyer/star-destroyer.component';
 
-describe('DeathSquareComponent', () => {
-  let component: DeathSquareComponent;
-  let fixture: ComponentFixture<DeathSquareComponent>;
+describe('StarDestroyerComponent', () => {
+  let component: StarDestroyerComponent;
+  let fixture: ComponentFixture<StarDestroyerComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DeathSquareComponent ]
+      declarations: [ StarDestroyerComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DeathSquareComponent);
+    fixture = TestBed.createComponent(StarDestroyerComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

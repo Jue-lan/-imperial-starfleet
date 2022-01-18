@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TurretComponent } from './turret.component';
+import { TurretComponent } from './../turret/turret.component';
 
 describe('TurretComponent', () => {
   let component: TurretComponent;
