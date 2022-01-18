@@ -4,5 +4,10 @@
     justify-content: center;
     align-items: center;
     margin: 50px;
-    display: grid;
+
+}
+
+img{
+    display:flex;
+    justify-content: space-around;
 }

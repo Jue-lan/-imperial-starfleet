@@ -6,8 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./death-square.component.css']
 })
 export class DeathSquareComponent implements OnInit {
-  
-  constructor() { }
+  numOfTurrets: number[];
+
+  constructor() {
+    this.numOfTurrets = Array(20);
+   }
 
   ngOnInit(): void {
   }

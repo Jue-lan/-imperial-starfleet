@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'imperial-starfleet';
+
+  numOfTieFighter: number[];
+
+  constructor() {
+    this.numOfTieFighter = Array(20);
+   }
 }

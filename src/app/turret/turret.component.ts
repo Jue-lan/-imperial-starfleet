@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-turret',
@@ -8,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class TurretComponent implements OnInit {
   numOfTurrets: number[];
 
-  constructor() { 
+  constructor() {
     this.numOfTurrets = Array(20);
-  }
+   }
+
+  // @Input('turretNumber') 
+  // turretNumber: any;
 
   ngOnInit(): void {
   }

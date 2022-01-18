@@ -1,5 +1,13 @@
 
 <p>death-square works!</p>
 <div id="death-square"> 
-    <app-turret></app-turret>
+    <app-turret>
+        *ngFor="let num of numOfTurrets; let i = index"
+        [turretNumber]="i + 1"
+    </app-turret>
+    <app-laser-cannon></app-laser-cannon>
+    <app-turret>
+        *ngFor="let num of numOfTurrets; let i = index"
+        [turretNumber]="i + 1"
+    </app-turret>
 </div>
