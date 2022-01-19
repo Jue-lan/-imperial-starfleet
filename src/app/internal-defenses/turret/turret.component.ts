@@ -6,14 +6,12 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./turret.component.css']
 })
 export class TurretComponent implements OnInit {
-  numOfTurrets=Array(20);
+  numOfTurrets=Array(40);
 
-  constructor() {
-    //this.numOfTurrets = Array(20);
-   }
+  constructor() {}
 
-  // @Input('turretNumber') 
-  // turretNumber: any;
+  //@Input('turretNumber') 
+  turretNumber: any;
 
   ngOnInit(): void {
   }

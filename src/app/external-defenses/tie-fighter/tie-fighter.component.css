@@ -1,5 +1,10 @@
-img{
-    /* display: flex; */
+.tie-fighter {
+    display:grid;
+  }
+
+
+img {
+    display:flexbox;
+    /* width: 100px; */
     background-color:aqua;
-    width: 30px;
 }
