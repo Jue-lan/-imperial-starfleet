@@ -10,7 +10,7 @@ export class TurretComponent implements OnInit {
 
   constructor() {}
 
-  //@Input('turretNumber') 
+  @Input('turretNumber') 
   turretNumber: any;
 
   ngOnInit(): void {

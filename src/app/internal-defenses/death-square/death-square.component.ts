@@ -9,7 +9,7 @@ export class DeathSquareComponent implements OnInit {
   numOfTurrets: number[];
 
   constructor() {
-    this.numOfTurrets = Array(20);
+    this.numOfTurrets = Array(40);
    }
 
   ngOnInit(): void {

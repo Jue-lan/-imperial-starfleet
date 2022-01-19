@@ -23,8 +23,8 @@ export class InfoWindowComponent implements OnInit {
 
   findTurret(turretNumber:any){
     console.log(turretNumber);
-    this.http.get(`http://localhost:4200/internal-defenses/${turretNumber}`)
-    .subscribe((response)=>{
+    this.http.get(`https://death-square-backend-api.herokuapp.com/api/turrets/${turretNumber}`)
+    .subscribe((response: any)=>{
       console.log(response);
       this.dataBanks = response;
     })
